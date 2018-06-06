@@ -8,6 +8,9 @@ a{
     text-decoration: none;
     color:#272626;
 }
+.hidden{
+    display: none;
+}
 
 .fleft{
     float:left
@@ -96,6 +99,7 @@ ul{
 .section-1 .top ul li {
     margin-right: 49px;
     display: inline-block;
+    margin-right: 25px;
 
 }
 .section-1 .top ul li a:hover{
@@ -120,7 +124,6 @@ ul{
 .slider .content h1{
     color:white;
     font-family: 'Lato', sans-serif;
-    width: 70%;
     width: 70%;
     margin-bottom: 22px;
     font-size: 45px;
@@ -147,5 +150,126 @@ ul{
 }
 .section-2{
     padding-top: 50px;
+    float: left;
+    width: 100%;
 
+}
+
+.section-3{
+    clear: both;
+    padding: 20px 0 0 0;
+    float: left;
+    width: 100%;
+}
+.line-3{
+    border-top: 1px solid #272626;
+    width: 85%;
+    float: right;
+    margin-top: -12px;
+}
+
+.products{
+    float: left;
+    width: 100%;
+    padding-top: 20px;
+}
+.products .product .price span{
+    float: left;
+    font-weight: bolder;
+}
+.products .product .price i{
+    float: right;
+}
+.price{
+    margin-top: 30px;
+    float: left;
+    width: 100%;
+}
+.products a:hover {
+    border: 1px solid #923C6B;
+}
+.products a{
+    float: left;
+    width: 15%;
+    text-align: center;
+    height: 250px;
+    padding: 9px;
+}
+footer{
+    float: left;
+    width: 100%;
+    margin-top: 55px;
+}
+footer .join-memebr .img{
+    background-image: url("images/slide-1.png");
+    background-repeat: no-repeat;
+    height: 70px;
+    background-size: 95%;
+    text-align: center;
+    padding-top: 15px;
+}
+footer .joinclub .img{
+    background-image: url("images/slide-1.png");
+    background-repeat: no-repeat;
+    height: 50px;
+    background-size: 95%;
+    text-align: center;
+    padding-top: 35px;
+}
+.join-memebr{
+
+    width: 50%;
+    float: left;
+}
+.joinclub{
+
+    width: 50%;
+    float: right;
+}
+.contaner{
+    padding: 30px 0px 20px 30px;
+    background-color: #F2F2F2;
+    width: 100%;
+    float: left;
+}
+footer .img p{
+    color: white;
+    font-size: 25px;
+}
+.contact-us,.customers,.shipping{
+    float:left;
+}
+.contact-sec h4,.mail-list h3{
+    font-weight: 500;
+    margin-top: 15px;
+
+}
+.mail-list p{
+    width: 90%;
+    margin: 15px 0px;
+
+}
+.mail-list button{
+    width: 35%;
+    padding: 10px 0px;
+    background-color: black;
+    border: none;
+    color: white;
+}
+.contact-sec p{
+    font-size: 12px;
+}
+.contact-sec h4{
+    margin-bottom: 20px;
+}
+
+.contact-us{
+    width:35%;
+}
+.customers{
+    width:25%;
+}
+.social-network{
+    clear: both;
+    font-size: 30px;
 }

@@ -8,6 +8,9 @@
         margin-bottom: 20px;
         text-align: center;
     }
+    .account-access .top{
+        text-align: center;
+    }
 }
 @media screen and  (max-width: 720px) {
    .freeship{
@@ -23,7 +26,9 @@
     .account-access .bottom {
         padding: 15px 20px 55px 20px;
         text-align: center;
+
     }
+
     .account-access ul {
         width: 100%;
         margin-top: 20px;
