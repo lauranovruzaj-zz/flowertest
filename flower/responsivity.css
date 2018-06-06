@@ -1,0 +1,45 @@
+
+@media screen and  (max-width: 1080px) {
+    .line{
+        display: none;
+    }
+    .sing-mail{
+        float: none;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+}
+@media screen and  (max-width: 720px) {
+   .freeship{
+       float:none;
+       margin-bottom: 20px;
+   }
+    .search{
+        float: none;
+
+    }
+}
+@media screen and  (max-width: 610px) {
+    .account-access .bottom {
+        padding: 15px 20px 55px 20px;
+        text-align: center;
+    }
+    .account-access ul {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+@media screen and  (max-width: 440px) {
+
+    .account-access .bottom ul li {
+         display: block;
+    }
+    .line-2{
+        border:0;
+    }
+    .account-access .bottom{
+        padding: 15px 20px 130px 20px;
+        border-bottom: 1px solid #272626;
+    }
+
+}
