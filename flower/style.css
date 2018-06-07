@@ -94,7 +94,7 @@ ul{
 .sing-mail,.freeship{
     float: left;
 }
-.slider img{
+.slider1 img{
     width:100%
 }
 .section-1 .top ul li {
@@ -111,25 +111,32 @@ ul{
     width: 93%;
     margin: 20px auto
 }
-.slider{
-    background-image: url("images/hero-image.png");
+.img1{
+    background-image: url("images/slide-1.png");
     background-repeat: no-repeat;
     width:100%;
     height: 590px;
     background-size: 100% 100%;
 }
-.slider .content{
+.img2{
+    background-image: url("images/slide-2.png");
+    background-repeat: no-repeat;
+    width:100%;
+    height: 590px;
+    background-size: 100% 100%;
+}
+.slider1 .content{
     margin: 265px 0 0 90px;
     float: left;
 }
-.slider .content h1{
+.slider1 .content h1{
     color:white;
     font-family: 'Lato', sans-serif;
     width: 70%;
     margin-bottom: 22px;
     font-size: 45px;
 }
-.slider .content button{
+.slider1 .content button{
 
     padding: 15px 70px;
     background-color: #FFFFFF;
@@ -276,5 +283,22 @@ footer .img p{
     font-size: 30px;
 }
 
+/*slick slider*/
+.slider {
+    width: 50%;
+    margin: 100px auto;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+}
+.slick-slider{
+    width:100%
+}
 
 
