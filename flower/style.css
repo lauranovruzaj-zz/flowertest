@@ -81,12 +81,13 @@ ul{
     float:right;
 }
 .search .store-search{
-    padding: 5px 42px;
+    padding: 5px 74px 5px 10px;
     margin-top: -5px;
 }
 .search i{
-    position: absolute;
-    left: 230px;
+    position: relative;
+    z-index: 1;
+    left: -30px;
     color:#272626;
     font-size: 18px;
 }
@@ -194,6 +195,7 @@ ul{
     text-align: center;
     height: 250px;
     padding: 9px;
+    border: 1px solid #fff;
 }
 footer{
     float: left;
@@ -273,3 +275,6 @@ footer .img p{
     clear: both;
     font-size: 30px;
 }
+
+
+

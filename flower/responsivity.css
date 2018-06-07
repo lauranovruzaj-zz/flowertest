@@ -1,3 +1,32 @@
+@media screen and  (max-width: 1430px) {
+    .products a {
+        width: 30%;
+    }
+}
+@media screen and  (max-width: 1330px) {
+    .section-1 .top{
+        text-align: center;
+    }
+    .sale-now,.what-new{
+        width:48%;
+    }
+}
+@media screen and  (max-width: 1270px) {
+    .line-3 {
+        width: 75%;
+    }
+}
+
+@media screen and  (max-width: 1250px) {
+    .joinclub {
+        width: 100%;
+    }
+    .join-memebr {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+}
+
 
 @media screen and  (max-width: 1080px) {
     .line{
@@ -12,6 +41,59 @@
         text-align: center;
     }
 }
+@media screen and  (max-width: 1000px) {
+    .slider {
+        background-size: cover;
+        height: 450px;
+    }
+    .slider .content {
+        margin: 140px 0 0 90px;
+    }
+}
+@media screen and  (max-width: 800px) {
+    .what-new,.sale-now{
+        width: 100%;
+    }
+    .sale-now{
+        margin-bottom: 20px;
+    }
+    .sale-now h3, .what-new h3{
+        text-align: center;
+    }
+    .section-2 img{
+       height: auto;
+        background-size: contain;
+
+    }
+}
+@media screen and  (max-width: 750px) {
+    .products a {
+        width: 45%;
+    }
+    .line-3 {
+        display:none;
+    }
+    .section-3 h3{
+        text-align: center;
+    }
+    .mail-list,.contact-sec{
+        text-align: center;
+    }
+    .contact-us,.customers,.shipping{
+        width: 100%;
+    }
+    .products a {
+        width: 100%;
+    }
+    .line-3 {
+        width: 55%;
+    }
+    .contaner {
+        padding: 30px 0px 20px 10px;
+
+    }
+
+}
 @media screen and  (max-width: 720px) {
    .freeship{
        float:none;
@@ -22,6 +104,8 @@
 
     }
 }
+
+
 @media screen and  (max-width: 610px) {
     .account-access .bottom {
         padding: 15px 20px 55px 20px;
@@ -33,6 +117,15 @@
         width: 100%;
         margin-top: 20px;
     }
+}
+@media screen and  (max-width: 550px) {
+    .section-1 .top ul li {
+        width: 35%;
+    }
+}
+
+@media screen and  (max-width: 750px) {
+
 }
 @media screen and  (max-width: 440px) {
 
@@ -46,5 +139,35 @@
         padding: 15px 20px 130px 20px;
         border-bottom: 1px solid #272626;
     }
+    .section-1 .top ul li {
+        width: 100%;
+    }
+    .products a{
+        width: 100%;
+    }
+    .slider .content button {
+        padding: 10px 21px;
 
+    }
+    .slider .content h1 {
+        font-size: 25px;
+        width: 100%;
+    }
+    .slider .content {
+        margin: 170px 0 0 30px;
+        text-align: center;;
+    }
+    footer .img p {
+        font-size: 18px;
+    }
 }
+
+@media screen and  (max-width: 390px) {
+    .search .store-search {
+        padding: 5px 15px 5px 5px;
+    }
+}
+
+
+
+
